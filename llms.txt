@@ -1,0 +1,18 @@
+# BurnLoop
+
+BurnLoop is an iPhone app for general wellness and educational meal guidance. Users can state health goals, allergies, and relevant health conditions, plan meals, scan food, and receive nutrition-related context plus practical next-step ideas.
+
+## Important safety information
+
+BurnLoop does not diagnose, treat, cure, or prevent disease. It does not replace medical care, prescribed treatment, medication guidance, or advice from a qualified clinician.
+
+## Key pages
+
+- https://burnloopai.com/ — Product overview
+- https://burnloopai.com/diabetes — Diabetes-aware meal-guidance education
+- https://burnloopai.com/cholesterol — Cholesterol-friendly meal-planning education
+
+## Pricing
+
+- Free download on iPhone
+- BurnLoop Pro monthly subscription: $4.99 USD, subject to App Store availability and terms
