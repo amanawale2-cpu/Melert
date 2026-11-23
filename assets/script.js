@@ -29,6 +29,12 @@ document.head.appendChild(logoStyles);
 // Homepage refinements
 const headerLinks=document.querySelector('.loop-links');
 headerLinks?.querySelector('a[href="#faq"]')?.remove();
+if(headerLinks && !headerLinks.querySelector('a[href="blog.html"]')){
+  const blogLink=document.createElement('a');
+  blogLink.href='blog.html';
+  blogLink.textContent='Blog';
+  headerLinks.appendChild(blogLink);
+}
 document.querySelector('.loop-actions .login')?.remove();
 const headerDownload=document.querySelector('.loop-actions .loop-button');
 if(headerDownload) headerDownload.textContent='Download now';
@@ -107,5 +113,11 @@ document.querySelectorAll('.loop-footer .footer-inner > div').forEach((footerLin
     privacyLink.href='privacy.html';
     privacyLink.textContent='Privacy policy';
     footerLinks.appendChild(privacyLink);
+  }
+  if(!footerLinks.querySelector('a[href="blog.html"]')){
+    const blogLink=document.createElement('a');
+    blogLink.href='blog.html';
+    blogLink.textContent='Blog';
+    footerLinks.appendChild(blogLink);
   }
 });

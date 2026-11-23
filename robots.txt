@@ -19,4 +19,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://burnloopai.com/sitemap.xml
+Sitemap: https://melert.net/sitemap.xml
